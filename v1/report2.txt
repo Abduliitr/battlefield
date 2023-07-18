@@ -1,0 +1,355 @@
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   3
+Enter total number of ammunitions:       13
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  7
+Other important details to the algo::
+Amunition provided: 13 vs Amunition used: 13
+Visited matrix looks like: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 0, 1, 2, 2, 0, 0]
+[0, 0, 0, 0, 2, 2, 2, 2, 2, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Average Accuracy : 53.84615384615385
+[[-20, 7, 3], [-5, 6, 4], [-5, 6, 8], [-5, 6, 6], [-5, 8, 4], [-5, 8, 8], [-5, 8, 6], [-5, 8, 5], [-5, 6, 8], [-5, 8, 7]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air SolutionSession % cd codecomp/v1 
+apple@Apples-MacBook-Air v1 % ls -l
+total 40
+-rw-r--r--  1 apple  staff  5216 18 Jul 16:17 report1.txt
+-rw-r--r--  1 apple  staff  1152 18 Jul 16:20 report2.txt
+-rw-r--r--  1 apple  staff  4453 18 Jul 16:19 search-for-ships.py
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py 
+Enter number of shots allowed at once:   2
+Enter total number of ammunitions:       123
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 123 vs Amunition used: 58
+Visited matrix looks like: 
+[1, 0, 0, 1, 0, 0, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+[1, 1, 2, 1, 0, 1, 1, 1, 1, 1]
+[0, 1, 2, 1, 1, 0, 1, 2, 2, 2]
+[0, 1, 2, 1, 1, 0, 0, 1, 1, 1]
+[0, 1, 2, 1, 0, 0, 1, 1, 1, 0]
+[0, 1, 1, 0, 1, 1, 2, 2, 1, 0]
+[0, 0, 0, 1, 2, 2, 2, 2, 2, 1]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 2, 2, 1, 0, 0, 0, 0, 0]
+Accuracy : 27.586206896551722
+[[-20, 9, 1], [0, 8, 3], [0, 8, 2]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 % 
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   3
+Enter total number of ammunitions:       123
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 123 vs Amunition used: 63
+Visited matrix looks like: 
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 0, 1]
+[0, 1, 2, 1, 1, 1, 1, 0, 0, 0]
+[1, 1, 2, 1, 0, 0, 0, 0, 0, 2]
+[1, 1, 2, 1, 1, 0, 0, 0, 0, 1]
+[0, 1, 2, 1, 1, 1, 1, 1, 0, 1]
+[0, 1, 1, 0, 1, 1, 2, 2, 1, 0]
+[0, 0, 1, 1, 2, 2, 2, 2, 2, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 2, 2, 2, 1, 1, 1, 0, 0, 0]
+Accuracy : 25.396825396825395
+[[-10, 2, 9], [0, 3, 8]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 %                            
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   4
+Enter total number of ammunitions:       123
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 123 vs Amunition used: 68
+Visited matrix looks like: 
+[0, 1, 1, 0, 1, 0, 0, 1, 0, 0]
+[0, 0, 1, 1, 1, 1, 1, 0, 0, 1]
+[1, 1, 2, 1, 0, 1, 1, 1, 0, 1]
+[1, 1, 2, 1, 0, 0, 0, 2, 0, 0]
+[0, 1, 2, 1, 1, 0, 1, 0, 0, 0]
+[1, 1, 2, 1, 0, 0, 1, 1, 0, 0]
+[1, 1, 1, 0, 1, 1, 2, 2, 1, 0]
+[0, 0, 0, 1, 2, 2, 2, 2, 2, 1]
+[0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 2, 2, 2, 1, 0, 0, 1, 1, 0]
+Accuracy : 23.52941176470588
+[[-10, 4, 7], [-5, 3, 6], [-5, 3, 8]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 %                            
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   4
+Enter total number of ammunitions:       123
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 123 vs Amunition used: 56
+Visited matrix looks like: 
+[0, 0, 1, 0, 0, 1, 1, 1, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 2, 0, 0, 0, 1, 0, 0, 1]
+[1, 1, 2, 1, 0, 0, 0, 0, 0, 0]
+[1, 1, 2, 1, 1, 0, 0, 0, 0, 0]
+[0, 1, 2, 1, 0, 1, 1, 1, 0, 0]
+[0, 0, 1, 0, 1, 1, 2, 2, 1, 1]
+[0, 0, 0, 1, 2, 2, 2, 2, 2, 1]
+[0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 2, 2, 2, 1, 0, 1, 0, 0, 0]
+Accuracy : 28.57142857142857
+[[-20, 1, 2], [-10, 2, 3]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 %                            
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   5
+Enter total number of ammunitions:       123
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 123 vs Amunition used: 60
+Visited matrix looks like: 
+[0, 0, 0, 0, 1, 1, 0, 1, 1, 0]
+[0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+[0, 1, 2, 1, 0, 0, 0, 1, 1, 1]
+[1, 1, 2, 1, 1, 0, 1, 2, 2, 2]
+[0, 1, 2, 1, 1, 0, 0, 1, 1, 1]
+[0, 1, 2, 1, 0, 0, 1, 1, 1, 0]
+[0, 0, 1, 1, 1, 1, 2, 2, 1, 0]
+[0, 0, 1, 1, 2, 2, 2, 2, 2, 1]
+[1, 0, 1, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Accuracy : 26.666666666666668
+[]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 % 
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   6
+Enter total number of ammunitions:       123
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  17
+Other important details to the algo::
+Amunition provided: 123 vs Amunition used: 84
+Visited matrix looks like: 
+[1, 1, 0, 1, 1, 0, 0, 0, 1, 0]
+[0, 0, 1, 1, 1, 1, 0, 1, 1, 1]
+[1, 1, 0, 1, 0, 1, 1, 1, 1, 1]
+[0, 1, 0, 1, 1, 1, 1, 2, 2, 2]
+[0, 1, 2, 1, 1, 0, 0, 1, 1, 1]
+[1, 1, 2, 1, 1, 0, 1, 1, 1, 1]
+[1, 0, 1, 0, 1, 1, 2, 2, 1, 0]
+[1, 1, 1, 1, 2, 2, 2, 2, 2, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 2, 2, 0, 0, 1, 1, 1, 1, 1]
+Accuracy : 20.238095238095237
+[[-20, 3, 2], [-20, 9, 3]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   5
+Enter total number of ammunitions:       35
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  8
+Other important details to the algo::
+Amunition provided: 35 vs Amunition used: 35
+Visited matrix looks like: 
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+[0, 0, 0, 1, 1, 1, 2, 2, 1, 1]
+[0, 1, 0, 1, 2, 2, 2, 2, 2, 1]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy : 22.857142857142858
+[]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 % 
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   7
+Enter total number of ammunitions:       55
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 55 vs Amunition used: 55
+Visited matrix looks like: 
+[0, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 1, 0, 0, 0, 1, 0, 1, 1]
+[0, 1, 2, 1, 0, 0, 1, 0, 1, 0]
+[0, 1, 2, 1, 0, 0, 0, 0, 2, 0]
+[0, 1, 2, 1, 1, 0, 0, 0, 0, 0]
+[0, 1, 2, 1, 0, 0, 1, 1, 0, 0]
+[0, 0, 1, 0, 1, 1, 2, 2, 1, 0]
+[0, 0, 0, 1, 2, 2, 2, 2, 2, 1]
+[0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 2, 2, 2, 1, 0, 1, 0, 0, 0]
+Accuracy : 29.09090909090909
+[[-10, 4, 8], [-5, 3, 9], [-5, 3, 7], [0, 9, 9]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   5
+Enter total number of ammunitions:       150
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 150 vs Amunition used: 75
+Visited matrix looks like: 
+[0, 0, 0, 0, 1, 0, 0, 0, 1, 1]
+[1, 1, 1, 0, 0, 1, 1, 1, 0, 0]
+[0, 1, 2, 1, 0, 0, 1, 1, 1, 1]
+[1, 1, 2, 1, 0, 1, 1, 2, 2, 2]
+[1, 1, 2, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 2, 1, 1, 1, 1, 1, 1, 0]
+[0, 0, 1, 1, 1, 1, 2, 2, 1, 0]
+[1, 1, 1, 1, 2, 2, 2, 2, 2, 1]
+[0, 1, 0, 1, 1, 1, 1, 1, 1, 0]
+[1, 2, 2, 0, 0, 1, 1, 1, 0, 1]
+Accuracy : 21.333333333333336
+[[-20, 9, 3], [0, 8, 2]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 %                            
+apple@Apples-MacBook-Air v1 % python3 search-for-ships.py
+Enter number of shots allowed at once:   7
+Enter total number of ammunitions:       155
+Region provided is: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+[0, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Boat positions identified :  16
+Other important details to the algo::
+Amunition provided: 155 vs Amunition used: 63
+Visited matrix looks like: 
+[1, 1, 1, 1, 0, 1, 0, 1, 1, 0]
+[0, 0, 1, 1, 0, 0, 0, 1, 0, 0]
+[1, 1, 2, 1, 0, 1, 0, 1, 1, 0]
+[0, 1, 2, 1, 0, 0, 0, 0, 0, 0]
+[0, 1, 2, 1, 1, 1, 1, 0, 0, 0]
+[0, 1, 2, 1, 0, 0, 1, 1, 0, 1]
+[0, 1, 1, 0, 0, 1, 2, 2, 1, 0]
+[1, 0, 0, 0, 2, 2, 2, 2, 2, 1]
+[0, 1, 1, 1, 0, 1, 1, 1, 1, 1]
+[1, 2, 2, 2, 1, 0, 0, 0, 0, 1]
+Accuracy : 25.396825396825395
+[[-20, 7, 3], [-5, 6, 4], [-20, 7, 3], [-5, 8, 4], [-5, 8, 4], [-5, 6, 4]]
+----------------------------------------------------------------
+apple@Apples-MacBook-Air v1 % 
